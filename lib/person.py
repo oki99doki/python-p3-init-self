@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
 
+import ipdb
+
 class Person:
-    pass
+    def __init__(self, name):
+        self.name = name
+
+#ipdb.set_trace()
